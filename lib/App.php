@@ -32,7 +32,7 @@ class App
             if($_SERVER['REQUEST_URI']!='/' && count($uri)>=2){
                 $version=$uri[1];
                 $arr=preg_split('/\?/',$uri[2]);
-                $action=$arr[0];
+                $action=ucfirst($arr[0]);
 
             }
         }

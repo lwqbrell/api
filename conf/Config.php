@@ -10,15 +10,6 @@ namespace conf;
 
 class Config
 {
-    // 数据库配置
-    const USER='root';
-    const PWD='root';
-    const DNS='mysql:host=localhost;dbname=xiyanhui';
-
-    // smarty配置
-    const TEMPLATEDIR='/../view';
-    const COMPILEDIR='/../tmp/templates_c/';
-    const CACHEDIR='/../tmp/cache/';
 
     // 手机号码查询配置
     const PHONE_SCRECRT='31e24ed9204a185105e03a6c2491dabb';

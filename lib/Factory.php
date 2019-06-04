@@ -14,21 +14,5 @@ namespace lib;
  */
 class Factory
 {
-    /**
-     * @return Database|\PDO
-     */
-    static function createDatabase(){
-        $db=Database::getInstance();
-        Register::registerSet('mysql',$db);
-        return $db;
-    }
 
-    /**
-     * @return \Smarty
-     */
-    static function createSmarty(){
-        $view=new View();
-        Register::registerSet('smarty',$view->smarty);
-        return $view->smarty;
-    }
 }

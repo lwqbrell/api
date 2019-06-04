@@ -9,7 +9,7 @@
 namespace api\v1;
 
 
-class TodayHistory implements ApiInterface
+class History implements ApiInterface
 {
     //配置您申请的appkey
     private $appkey="*********************";
